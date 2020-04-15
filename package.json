@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "engines": {
         "node": "12.13.1",
-        "npm":"6.12.1"
+        "npm": "6.12.1"
     },
     "scripts": {
         "client": "cd client && yarn start",
@@ -12,7 +12,6 @@
         "dev": "concurrently --kill-others-on-fail \" yarn server\" \"yarn client\"",
         "start": "node server.js",
         "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-
     },
     "dependencies": {
         "body-parser": "^1.19.0",
