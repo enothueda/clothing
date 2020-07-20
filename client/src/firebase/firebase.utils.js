@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config = 'YOUR API KEY AND INFORMATION HERE'
+const config = 'YOUR API AND INFO HERE'
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
     if(!userAuth) return;
